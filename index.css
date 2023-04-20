@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.background {
+    background-color: black;
+}
+
+.images {
+    border: red solid 2px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.profil {
+    border: green solid 2px;
+    width: 40%;
+    height: 10vh;
+    background-image: url("img/profil.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.entreprise {
+    border: green solid 2px;
+    width: 40%;
+    height: 10vh;
+    background-image: url("img/entreprises/lesBonsTech.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
